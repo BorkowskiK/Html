@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+<form>
+  <label for="fname">Imie:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Nazwisko:</label><br>
+  <input type="text" id="lname" name="lname">
+  <input type="submit">
+</form>
+<form>
+  <input type="radio" id="BMW" name="fav_language" value="BMW">
+  <label for="html">BMW</label><br>
+  <input type="radio" id="AUDI" name="fav_language" value="AUDI">
+  <label for="css">AUDI</label><br>
+  <input type="radio" id="OPEL" name="fav_language" value="OPEL">
+  <label for="javascript">OPEL</label>
+  <input type="submit">
+</form>
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">Mam skuter</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">Mam Samochód</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3">Mam rower</label>
+  <input type="submit">
+</form>
