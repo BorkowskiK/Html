@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+}
+
+.box2 {
+    width: 50%;
+    text-align: center;
+}
+
+.box3 {
+    width: 50%;
+    text-align: center;
+    background-color: aliceblue;
+    height: 140px;
+}
+
+.boxy {
+    display: flex;
+    align-items: center;
+}
+
+.boxy2 {
+    display: flex;
+    align-items: center;
+}
+
+.box4 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.box5 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.box6 {
+    display: flex;
+    align-items: center;
+    position: relative; left: 37%;
+}
+
+.box7 {
+    display: flex;
+    align-items: center;
+    position: relative; left: 44%;
+}
+
+.box8 {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.box9 {
+    text-align: center;
+    color: red;
+    background-color: aliceblue;
+    animation-name: color;
+
+    animation-duration:5s;
+
+    animation-iteration-count:infinite;
+}
+
+@keyframes color 
+
+{
+
+0% { color:rgb(0, 255, 55); }
+
+50% { color: blue; }
+
+75% { color:red }
+
+100% { color:#000; }
+
+}
+
+.box1:hover {
+    animation: backgroundcolor 5s infinite ease-in-out alternate;
+}
+
+@keyframes backgroundcolor 
+
+{
+
+0% { background-color:rgb(255, 255, 255); }
+
+
+
+100% { background-color:rgb(148, 147, 147); }
+
+}
